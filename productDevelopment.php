@@ -24,12 +24,10 @@
       <div class="content narrow">
        <section class="main col col-lg-8">
         <?php include "_/components/php/header.php"; ?>
-        <?php include "_/components/php/carousel.php"; ?>
        </section><!-- Main -->
        <section class="sidebar col col-lg-4">
        </section><!-- Main -->
       </div>
-      <?php include "_/components/php/footer.php"; ?>
     </section><!-- Container -->
     
     <!-- Include all compiled plugins (below), or include individual files as needed -->
