@@ -18,6 +18,7 @@
     <![endif]-->
   </head>
   <body>
+  <?php include_once("analyticstracking.php") ?>
     <h1>Hello, world!</h1>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
