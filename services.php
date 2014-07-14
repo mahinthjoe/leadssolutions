@@ -17,17 +17,26 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body id="home">
+  <body id="services">
     <?php include_once("analyticstracking.php") ?>
-  
     <section class="container-fluid">
-      <div class="content narrow">
+    <?php include "_/components/php/header.php"; ?>
+    <div class="content row">
        <section class="main col col-lg-8">
-        <?php include "_/components/php/header.php"; ?>
+        
        </section><!-- Main -->
        <section class="sidebar col col-lg-4">
        </section><!-- Main -->
       </div>
+    <footer class="row">
+    <nav class="col col-lg-12">
+      <ul class="breadcrumb">
+          <li><a href="index.php">Home</a></li>
+          <li><a href="services.php">Services</a></li>
+        </ul><!-- ul -->
+      </nav><!-- nav -->
+    </footer><!-- footer -->
+    
     </section><!-- Container -->
     
     <!-- Include all compiled plugins (below), or include individual files as needed -->

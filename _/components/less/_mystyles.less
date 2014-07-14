@@ -1,0 +1,82 @@
+//My Colors
+@red: #BA83D4;
+@magenta: #FDF5E3;
+@beige: #FDF5E3;
+@white: #FFFFFF;
+@yellow:#FTAD22;
+@darkblue:#586E75;
+@purple:#D33682;
+@pink:#D33682;
+
+@headlineFontFamily:"Bree Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@copyFontFamily:Merriweather,Georgia, "Times New Roman", Times, serif;
+
+
+h1,h2,h3,h4,h5,h6{
+	font-family: @headlineFontFamily;
+	color: @purple;
+}
+
+body{
+	background: @darkblue;
+	margin-top:2px;
+}
+
+p{
+ position: relative;
+ font-family: @copyFontFamily;
+ font-size: 1.1em;
+ line-height: 1.4em;
+ color: @darkblue;
+ padding-left:  20px;
+ text-indent: 40px;	
+}
+
+.container-fluid {
+	background: @white;
+	-webkit-border-radius: 60px 0 0 0;
+	-moz-bordrer-radius:60px 0 0 0;;
+	border-radius: 60px 0 0 0; 
+
+	@media(max-width:767px) {
+	 -webkit-border-radius: 20px 0 0 0;
+	 -moz-bordrer-radius:20px 0 0 0;;
+	 border-radius: 20px 0 0 0; 
+	 }
+}
+.content{
+	padding-left: 20px;
+}
+.main>article{
+	padding-left: 20px;
+}
+
+.sidebar>aside {
+	padding-right: 5%;
+	@media(max-width:767px) {
+	 padding-left: 20px;
+	}
+}
+
+aside{
+	h2{
+	font-size:1.8em;
+	color: @pink;
+	border-bottom: 1px dotted @purple;
+	}
+}
+
+#branding{
+	img{
+	margin: 10px 0 5px 25px;
+	max-width: 450px;
+	 @media (max-width: 767px){
+		margin:10px 0 5px 10px;
+		width: 90%;
+		}
+	}
+}
+// Removing BootStrap Carousel Background Gradient
+.carousel-control.right, .carousel-control.left {
+  background-image:none;
+}
