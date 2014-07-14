@@ -21,8 +21,9 @@
     <?php include_once("analyticstracking.php") ?>
       <section class="container-fluid">
         <?php include "_/components/php/header.php"; ?>
-      <div class="content narrow">
+      <div class="content row">
        <section class="main col col-lg-8">
+        <p>Keep visiting this page for upcoming opportunities at Leads.</p><p> You can also send us your updated resume at info@leads-solutions.com</p>
        </section><!-- Main -->
        <section class="sidebar col col-lg-4">
        </section><!-- Main -->
