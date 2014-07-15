@@ -23,7 +23,19 @@
     <?php include "_/components/php/header.php"; ?>
     <div class="content row">
     <section class="main col col-lg-8">
-       </section><!-- Main -->
+    <p>The Aircraft Spares Support Division of Leads provides aircraft operators with comprehensive parts sourcing and Off the Shelf Items. With a wide network of supplier sources, we are able to source AOG items immediately and help customers in reducing the downtime of the aircraft.  As a registered supplier for DRDO we have built a reputation for meeting their project related requirements on time.  We provide cost effective support for sourcing the following:</p>
+  <ul>
+  <li>Aircraft Spares <img src="images/14s.jpg" alt="Aircraft Spares"/></li> 
+  <li>Avionics LRUs & Spares</li>
+  <li>Aircraft Ground Support Equipments <img src="images/15s.jpg" alt="Aircraft Ground Support Equipments"/></li>
+  <li>Special purpose Tools and fixtures <img src="images/16.jpg" alt="Special purpose Tools and fixtures"/></li>
+  <li>Aircraft Fasteners and Hardwares</li>
+  <li>Aero grade Ferrous and Non Ferrous alloys</li>
+  <li>MIL Grade Connectors, Backshell connectors, etc</li>
+  <li>Adhesives & Sealants</li>
+</ul>
+
+      </section><!-- Main -->
        <section class="sidebar col col-lg-4">
        </section><!-- Main -->
       </div>
