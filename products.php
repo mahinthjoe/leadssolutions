@@ -36,7 +36,7 @@
 These simulators are built using COTS items and integrated with Open Source software which resulted in quite cost effective simulators for the institutions.</p>
             </div>
             <div class="tab-pane" id="tab2">
-            <p><img src="images/18s.jpg" alt="3D modeling ">Push button switches are quite common in modern commercial aircrafts.  These widely used switches are supplied by others at a premium price.  Leads has taken up a project to design and develop a airborne push button switch which can be qualified as per MIL 810F standard for type certification.  Currently it is under development and expected to be certified by CEMILAC by mid 2014.</p>
+            <p><img src="images/18s1Set.jpg" alt="3D modeling ">Push button switches are quite common in modern commercial aircrafts.  These widely used switches are supplied by others at a premium price.  Leads has taken up a project to design and develop a airborne push button switch which can be qualified as per MIL 810F standard for type certification.  Currently it is under development and expected to be certified by CEMILAC by mid 2014.<img src="images/18s2Set.jpg" alt="3D modeling "></p>
             </div>
             <div class="tab-pane" id="tab3">
               <p><img src="images/19.jpg" alt="3D modeling ">Military aircraft Avionics system extensively use 1553 B Bus.  Leads with wide experience in Avionics has developed 1553 B cards for industrial and academic purpose.  With experience and knowledge on developing indigenous sources, the cards are offered at an affordable price for academic institutions.  These cards help the Avionic students to understand Avionic Bus protocols and carry out independent projects using the software tools supplied. </p>
