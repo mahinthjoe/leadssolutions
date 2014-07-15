@@ -32,17 +32,17 @@
             </ul>
             <div class="tab-content">
             <div class="tab-pane active" id="tab1">
-            <p><img href="images/17.jpg" alt="Flight Simulator"> Leads has extensive knowledge and experience in building Flight Simulators for professional and hobby applications.  Some of our products are serving to help understanding of aircraft and its flying characteristics for budding aeronautical students. 
+            <p><img src="images/17.jpg" alt="Flight Simulator"/> Leads has extensive knowledge and experience in building Flight Simulators for professional and hobby applications.  Some of our products are serving to help understanding of aircraft and its flying characteristics for budding aeronautical students. 
 These simulators are built using COTS items and integrated with Open Source software which resulted in quite cost effective simulators for the institutions.</p>
             </div>
             <div class="tab-pane" id="tab2">
-            <p>Push button switches are quite common in modern commercial aircrafts.  These widely used switches are supplied by others at a premium price.  Leads has taken up a project to design and develop a airborne push button switch which can be qualified as per MIL 810F standard for type certification.  Currently it is under development and expected to be certified by CEMILAC by mid 2014.</p>
+            <p><img src="images/18s.jpg" alt="3D modeling ">Push button switches are quite common in modern commercial aircrafts.  These widely used switches are supplied by others at a premium price.  Leads has taken up a project to design and develop a airborne push button switch which can be qualified as per MIL 810F standard for type certification.  Currently it is under development and expected to be certified by CEMILAC by mid 2014.</p>
             </div>
             <div class="tab-pane" id="tab3">
-              <p>Military aircraft Avionics system extensively use 1553 B Bus.  Leads with wide experience in Avionics has developed 1553 B cards for industrial and academic purpose.  With experience and knowledge on developing indigenous sources, the cards are offered at an affordable price for academic institutions.  These cards help the Avionic students to understand Avionic Bus protocols and carry out independent projects using the software tools supplied. </p>
+              <p><img src="images/19.jpg" alt="3D modeling ">Military aircraft Avionics system extensively use 1553 B Bus.  Leads with wide experience in Avionics has developed 1553 B cards for industrial and academic purpose.  With experience and knowledge on developing indigenous sources, the cards are offered at an affordable price for academic institutions.  These cards help the Avionic students to understand Avionic Bus protocols and carry out independent projects using the software tools supplied. </p>
             </div>
             <div class="tab-pane" id="tab4">
-             <p>In the aircraft design cycle wind tunnel testing is a key and critical factor for the successful design of a chosen concept.  Leads with its pool of aerodynamic experts helped to design and develop scaled wind tunnel models to the size of 8 feet and above using structural design and analysis.    With the support of wind tunnel test centres in India, Leads will take up turnkey solutions for customers that need wind tunnel model designs, fabrication of models, testing, analysis, report and documentation in subsonic and supersonic regimes</p>
+             <p><img src="images/WindTunnels.jpg" alt="3D modeling ">In the aircraft design cycle wind tunnel testing is a key and critical factor for the successful design of a chosen concept.  Leads with its pool of aerodynamic experts helped to design and develop scaled wind tunnel models to the size of 8 feet and above using structural design and analysis.    With the support of wind tunnel test centres in India, Leads will take up turnkey solutions for customers that need wind tunnel model designs, fabrication of models, testing, analysis, report and documentation in subsonic and supersonic regimes</p>
             </div> 
             </div>
             </div>
@@ -54,7 +54,7 @@ These simulators are built using COTS items and integrated with Open Source soft
     <nav class="col col-lg-12">
       <ul class="breadcrumb">
           <li><a href="index.php">Home</a></li>
-          <li><a href="services.php">Services</a></li>
+          <li><a href="products.php">Products</a></li>
         </ul><!-- ul -->
       </nav><!-- nav -->
     </footer><!-- footer -->
