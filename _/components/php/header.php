@@ -1,15 +1,20 @@
 <div class="container row">
-	<div class="col-lg-8">
+	<div class="col col-lg-12">
 		<header class="clearfix">
 			<section id="branding">
 				<a href="index.php">
 					<img src="images/misc/logo.gif" alt="Leads Solutions Logo">
 				</a>
+					 <div class="pull-right">
+	 	    <h4>Tele fax : +91-80-42047598</h4>
+            <h4>email : info@leads-solutions.com</h4>
+	 		</div><!-- DIV pull right -->
+
 			</section><!-- Branding -->
 			<nav class="navbar navbar-default" role="navigation">
 				<ul class="nav navbar-nav">
 					<li><a href="index.php">Home</a></li>
-					<li><a href="products.php"></i>Products</a></li>
+					<li><a href="products.php">Products</a></li>
 					<!--li class="dropdown">
 						<a href="products.php" class="dropdown-toggle" data-toggle="dropdown">
 							Products<span class="caret"></span></a>
@@ -38,5 +43,5 @@
 				</ul><!-- nav -->
 			</div><!-- navbar -->
 		</headed><!-- Header -->
-	 </div><!-- Column -->
-</div><!-- Content -->
+	 </div><!-- Column-lg-8 -->
+</div><!-- container row-fluid -->

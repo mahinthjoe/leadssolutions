@@ -19,10 +19,10 @@
   </head>
   <body id="services">
     <?php include_once("analyticstracking.php") ?>
-      <section class="container-fluid">
+      <section class="container">
       <?php include "_/components/php/header.php"; ?>
       <div class="content row">
-       <section class="main col col-lg-8">
+       <section class="main col col-lg-12">
         
         <div class="tabbable"> <!-- Only required for left/right tabs -->
             <ul class="nav nav-tabs">
@@ -36,19 +36,16 @@
         <div class="tab-pane active" id="tab1">
         <p><h2>Product Development</h2>
         <p>We offer turnkey services that range the complete product life cycle, in both Mechanical and Avionics domains. Our services include</p>       
-        <table><tbody><tr><td>
-                 <li>Conceptualization of Product  &amp; System 
-                Design Analysis <img src="images/1.jpg" alt="System Design Analysis"></li>
-                </td><td><li>Design Development <img src="images/2.jpg" alt="Design Development"></li>
-                </td></tr>
-        <tr><td><li>3D modeling <img src="images/3.jpg" alt="3D modeling "></li>
-                </td>
-         <td><li>Prototyping</li>   
-                <li>Testing and Validation</li>
-                <li>Integration</li>
-                <li>Qualification and Certification</li>
-        </td></tr>
-        </tbody></table>
+          <li>Conceptualization of Product  &amp; Systems</li>
+          <li>Design Analysis <img src="images/1.jpg" class="pull-right" alt="System Design Analysis"></li>
+          <li>Design Development <img src="images/2.jpg"  class="pull-right"  alt="Design Development"></li>
+          <li>CAD Migration</li>
+          <li>3D modeling <img src="images/3.jpg"  class="pull-right"  alt="3D modeling "></li>
+          <li>Prototyping</li>   
+          <li>Testing and Validation</li>
+          <li>IV &amp; V</li>
+          <li>Integration</li>
+          <li>Qualification and Certification</li>
         </p>
         </div>
         
@@ -58,42 +55,43 @@
         </div>
         
         <div class="tab-pane" id="tab2">
-                      <h2>Consultancy</h2>
-                <ul>
-                <table>
-            <tr>
-             <td>
-             <li>Avionics – Design &amp; Development of subsystems <img src="images/4.jpg" alt="Avionics – Design &amp; Development of  subsystems">
-            </li></td><td>
-             <li>CFD – Meshing &amp; Analysis <img src="images/6-1.jpg" alt="CFD – Meshing &amp; Analysis"/></li> 
-            </td><td></tr>
-            <tr><td>
-            <li>Aero Structures <img src="images/5.jpg" alt="Aero Structures"></li>
-            </td><td><li>Technical Publications &amp; Documentation <img src="images/7.jpg" alt="Technical Publications &amp; Documentation"></li>
-            </td></tr>
-            <tr><td>
-                <li>Aircraft Modification &amp; Integration</li>
-                <li>Aircraft Maintenance and Operations</li>
-                 <li>Qualification, Testing and Certification</li> 
-                <li>Offset Process &amp; Identification of right IOP’s for OEMs.</li>
-            </td></tr>
-             </table></ul>
+          <h2>Consultancy</h2>
+            <ul>
+              <li>Aircraft Modification &amp; Integration</li>
+              <li>Aircraft Maintenance and Operations</li>
+              <li>Qualification, Testing and Certification</li> 
+              <li>Offset Process &amp; Identification of right IOP’s for OEMs.</li>
+              <li>Avionics – Design &amp; Development of subsystems <img src="images/4.jpg" class="pull-right" alt="Avionics – Design &amp; Development of  subsystems"></li>
+              <li>CFD – Meshing &amp; Analysis <img src="images/6-1.jpg" class="pull-right" alt="CFD – Meshing &amp; Analysis"/></li> 
+              <li>Aero Structures <img src="images/5.jpg" class="pull-right" alt="Aero Structures"></li>
+              <li>Technical Publications &amp; Documentation <img src="images/7.jpg" class="pull-right"  alt="Technical Publications &amp; Documentation"></li>
+            </ul>
         </div>
-
+        <div class="tab-pane" id="tab4">
+        <p><h2>Testing &amp; Certification</h2>
+        <ul>
+          <li>Environmental Testing – MIL 810 F       - 8</li>
+          <li>EMI /EMC Testing          -9</li>
+          <li>Certification Testing</li>
+        </ul>
+        </div>
+        <div class="tab-pane" id="tab5">
+        <h2>Others</h2>
+        <ul>
+          <li>Avionic Boxes     - 10</li>
+          <li>Automated Test Equipments -11</li>
+          <li>Avionic Rack Integration    -12</li>
+          <li>Wire Harness          13</li>
+        </ul>
+        </div>
+        
         </div>
         </div>
        </section><!-- Main -->
-       <section class="sidebar col col-lg-4">
+       <!--section class="sidebar col col-lg-4">
        </section><!-- Main -->
       </div>
-    <footer class="row">
-    <nav class="col col-lg-12">
-      <ul class="breadcrumb">
-          <li><a href="index.php">Home</a></li>
-          <li><a href="products.php">Products</a></li>
-        </ul><!-- ul -->
-      </nav><!-- nav -->
-    </footer><!-- footer -->
+     <?php include "_/components/php/footer.php"; ?>
     </section><!-- Container -->
     
     <!-- Include all compiled plugins (below), or include individual files as needed -->

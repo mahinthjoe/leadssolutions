@@ -19,16 +19,19 @@
   </head>
   <body id="support">
     <?php include_once("analyticstracking.php") ?>
-    <section class="container-fluid">
+    <section class="container">
     <?php include "_/components/php/header.php"; ?>
     <div class="content row">
-    <section class="main col col-lg-8">
+    <section class="main col col-lg-12">
     <p>The Aircraft Spares Support Division of Leads provides aircraft operators with comprehensive parts sourcing and Off the Shelf Items. With a wide network of supplier sources, we are able to source AOG items immediately and help customers in reducing the downtime of the aircraft.  As a registered supplier for DRDO we have built a reputation for meeting their project related requirements on time.  We provide cost effective support for sourcing the following:</p>
   <ul>
-  <li>Aircraft Spares <img src="images/14s.jpg" alt="Aircraft Spares"/></li> 
+  <li>Aircraft Spares <img src="images/14s.jpg" class="pull-right" alt="Aircraft Spares"/></li> 
   <li>Avionics LRUs & Spares</li>
-  <li>Aircraft Ground Support Equipments <img src="images/15s.jpg" alt="Aircraft Ground Support Equipments"/></li>
-  <li>Special purpose Tools and fixtures <img src="images/16.jpg" alt="Special purpose Tools and fixtures"/></li>
+  <li>Aircraft Ground Support Equipments <a href="#" rel="tooltip" title="imagine loading this truck">
+    <img src="images/15-1.jpg" class="pull-right"  alt="Luggage Vehicle"/></a>
+    <a href="#" rel="tooltip" title="Relax we make these which make it easy for you">
+      <img src="images/15s.jpg" class="pull-right"  alt="Aircraft Ground Support Equipments"/></a></li>
+  <li>Special purpose Tools and fixtures <img src="images/16.jpg" class="pull-right"  alt="Special purpose Tools and fixtures"/></li>
   <li>Aircraft Fasteners and Hardwares</li>
   <li>Aero grade Ferrous and Non Ferrous alloys</li>
   <li>MIL Grade Connectors, Backshell connectors, etc</li>
@@ -36,18 +39,10 @@
 </ul>
 
       </section><!-- Main -->
-       <section class="sidebar col col-lg-4">
-       </section><!-- Main -->
+       <!--section class="sidebar col col-lg-4">
+       </section><!-- Sidebar -->
       </div>
-    <footer class="row">
-    <nav class="col col-lg-12">
-      <ul class="breadcrumb">
-          <li><a href="index.php">Home</a></li>
-          <li><a href="support.php">Aircraft Spares Support</a></li>
-        </ul><!-- ul -->
-      </nav><!-- nav -->
-    </footer><!-- footer -->
-    
+    <?php include "_/components/php/footer.php"; ?>
     </section><!-- Container -->
     
     <!-- Include all compiled plugins (below), or include individual files as needed -->
