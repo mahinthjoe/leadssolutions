@@ -1,3 +1,4 @@
+<article>
 <div id="myCarousel" class="carousel slide">
  	<ol class="carousel-indicators">
 		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -16,3 +17,4 @@
 	<a href="#myCarousel" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>	
 	<a href="#myCarousel" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span>
 </div><!-- myCarousel -->
+</article>

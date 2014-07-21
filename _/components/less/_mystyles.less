@@ -1,14 +1,15 @@
 //my colors
+@white:				#FFFFFF;
 @red: 				#BA83D4;
-@magenta: 		#FDF5E3;
+@magenta: 		    #FDF5E3;
 @beige: 			#FDF5E3;
 @yellow:			#FDAD22;
 @purple:			#475C98;
 @darkblue: 		#586E75;
 @pink:			#B42029;	//#D33682;
 
-@headlineFontFamily:			"Bree Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-@copyFontFamily:					Merriweather,Georgia, "Times New Roman", Times, serif;
+@headlineFontFamily:"Bree Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@copyFontFamily:Merriweather,Georgia, "Times New Roman", Times, serif;
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: @headlineFontFamily;
@@ -16,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-	background: @purple url(../../images/misc/background_buildings.png);
+	background:  url(../../images/misc/background_buildings.png);
 	margin-top: 30px;
 }
 
@@ -29,7 +30,7 @@ p {
 }
 
 .container {
-	background: @beige;
+	background: @white;
 	-webkit-border-radius: 60px 0 0 0;
 	-moz-border-radius: 60px 0 0 0;
 	border-radius: 60px 0 0 0;
@@ -42,7 +43,7 @@ p {
 }
 
 .main {
-	background: @beige;
+	background: @white;
 }
 
 .navbar {
@@ -123,7 +124,7 @@ aside {
 	}
 
 	li.active a {
-		background: @beige;
+		background: @white;
 	}
 
 	li a:hover {
@@ -260,8 +261,30 @@ li:last-child {
 .carousel-control.right, .carousel-control.left {
   background-image:none;
 }
-// Custom highlight color for Nav bar
-.navbar-tabs > li a:hover{
+// Custom highlight color for Navbar hover
+.navbar-default .navbar-nav li a:hover
+{
+	font-family: @copyFontFamily;
 	background-color:#B42029;
 	color:#ffffff;
+	//font-weight:bold;
 } 
+//Custom Selected menu coloring on main navbar 
+.navbar-default .navbar-nav li.active{
+	a{
+	color:#B42029;
+	font-weight:bold;
+	}
+}
+//Indented Paragraps
+p{
+	text-indent: 40px;
+}
+//Custom Selected Tab Color
+.tabbable .nav-tabs li.active{
+	a{
+	color:#B42029;
+	font-family: @copyFontFamily;
+	font-weight:bold;
+	}
+}

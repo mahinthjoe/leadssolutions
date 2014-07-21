@@ -1,6 +1,6 @@
 $(function () {
 
-	//highlighting the current nav
+    // Highlighting the current nav
 	$("#home a:contains('Home')").parent().addClass('active');
 	$("#products a:contains('Products')").parent().addClass('active');
 	$("#support a:contains('Support')").parent().addClass('active');
@@ -14,6 +14,5 @@ $(function () {
 		}, function(){ // and fade when mouse disappears
 		$('.dropdown-menu', this).fadeOut('fast');
 		} );//hover
-
 	} );//jQuery is loaded
 
