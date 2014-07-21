@@ -25,7 +25,7 @@
        <section class="main col col-lg-12">
         
         <div class="tabbable"> <!-- Only required for left/right tabs -->
-            <ul class="nav nav-tabs">
+        <ul class="nav nav-tabs">
         <li class="active"><a href="#tab1" data-toggle="tab">Product Development</a></li>
         <li><a href="#tab2" data-toggle="tab">Consultancy</a></li>
         <li><a href="#tab3" data-toggle="tab">Manpower</a></li>
@@ -70,18 +70,18 @@
         <div class="tab-pane" id="tab4">
         <p><h2>Testing &amp; Certification</h2>
         <ul>
-          <li>Environmental Testing – MIL 810 F       - 8</li>
-          <li>EMI /EMC Testing          -9</li>
+          <li>Environmental Testing – MIL 810 F <img src="images/8-1.jpg" class="pull-right" alt="Environmental Testing"><img src="images/8-2.jpg" class="pull-right" alt="Environmental Testing"></li>
+          <li>EMI /EMC Testing<img src="images/9-1.jpg" class="pull-right" alt="Environmental Testing"><img src="images/9-2.jpg" class="pull-right" alt="Environmental Testing"></li>
           <li>Certification Testing</li>
         </ul>
         </div>
         <div class="tab-pane" id="tab5">
         <h2>Others</h2>
         <ul>
-          <li>Avionic Boxes     - 10</li>
-          <li>Automated Test Equipments -11</li>
-          <li>Avionic Rack Integration    -12</li>
-          <li>Wire Harness          13</li>
+          <li>Avionic Boxes - <img src="images/10.jpg" class="pull-right" alt="Avionic Boxes"><img src="images/10-1.jpg" class="pull-right" alt="Avionic Boxes"></li>
+          <li>Automated Test Equipments <img src="images/11-1.jpg" class="pull-right" alt="Automated Test Equipment"><img src="images/11-2.jpg" class="pull-right" alt="Automated Test Equipment"></li>
+          <li>Avionic Rack Integration    - <img src="images/12.jpg" class="pull-right" alt="Avionic Rack Integration"></li>
+          <li>Wire Harness        <img src="images/13-1.jpg" class="pull-right" alt="Wiring Harness"><img src="images/13-2.jpg" class="pull-right" alt="Wiring Harness"></li>
         </ul>
         </div>
         
