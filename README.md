@@ -5,4 +5,4 @@ Following created to do aid speedy Development
   2. _/components/js/_bootstrap.js is compiled & compressed and minified to _/js/bootstrap.js
   3. _/components/js/_mystyles.less is compiled & compressed to _/css/mystyles.css
   4.  _/components/js/_mystyles.js is compiled & compressed and minified to _/js/mystyles.js
-(Compiling)[http://localhost/~mahinthjoe/bootstrap/less.html#compiling] 
+[Compiling] <http://localhost/~mahinthjoe/bootstrap/less.html#compiling>
