@@ -40,8 +40,8 @@
 					</li><!-- Services Menu -->
 					<li><a href="career.php">Career</a></li>
 					<li><a href="contact.php">Contact</a></li>
-				</ul><!-- nav -->
-			</div><!-- navbar -->
-		</headed><!-- Header -->
-	 </div><!-- Column-lg-8 -->
-</div><!-- container row-fluid -->
+     </ul><!-- nav -->
+    </div><!-- navbar -->
+   </headed><!-- Header -->
+  </div><!-- Column-lg-8 -->
+</div><!-- container row -->
