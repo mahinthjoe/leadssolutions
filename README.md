@@ -6,3 +6,4 @@ Following created to do aid speedy Development
   3. _/components/js/_mystyles.less is compiled & compressed to _/css/mystyles.css
   4.  _/components/js/_mystyles.js is compiled & compressed and minified to _/js/mystyles.js
   5. Bootstrap documentation has More information on Compiling LESS 
+31/08/2014 Removed Index page as per customers request  
